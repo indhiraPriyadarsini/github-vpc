@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    uses: https://github.com/indhiraPriyadarsini/github-reusables/.github/workflows/actions.yml@main
+    uses: indhiraPriyadarsini/github-reusables/.github/workflows/actions.yml@main
     with:
       terraform_version: "1.6.0"
       terraform_workspace: "dev"

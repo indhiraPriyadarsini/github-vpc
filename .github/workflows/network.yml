@@ -1,8 +1,7 @@
 name: Deploy Terraform
 
 on:
- repository_dispatch:
-    types: webhook
+   workflow_dispatch:
 
 jobs:
   deploy:
